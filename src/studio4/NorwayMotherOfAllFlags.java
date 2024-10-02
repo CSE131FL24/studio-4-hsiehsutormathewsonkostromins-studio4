@@ -29,33 +29,52 @@ public class NorwayMotherOfAllFlags {
 	}
 
 	public static void france() {
+		StdDraw.clear();
+		StdDraw.setPenColor(0, 0, 127);
+		StdDraw.filledRectangle(0, 0, 7, 16);
 		
-		// TODO
+		StdDraw.setPenColor(255, 0, 0);
+		StdDraw.filledRectangle(21, 0, 7, 16);
 	}
 
 	public static void indonesia() {
+		StdDraw.clear();
+		StdDraw.setPenColor(255, 0, 0);
+		StdDraw.filledRectangle(0, 12, 22, 4);
 		
-		// TODO
 	}
 
 	public static void netherlands() {
+		StdDraw.clear();
+		StdDraw.setPenColor(255, 0, 0);
+		StdDraw.filledRectangle(0, 14, 22, 3);
 		
-		// TODO
+		StdDraw.setPenColor(0, 0, 127);
+		StdDraw.filledRectangle(0, 0, 22, 5);
+	
 	}
 
 	public static void poland() {
-		
-		// TODO
+		StdDraw.clear();
+		StdDraw.setPenColor(255, 0, 0);
+		StdDraw.filledRectangle(0, 0, 22, 8);
 	}
 
 	public static void thailand() {
 		
-		// TODO
+		StdDraw.clear();
+		StdDraw.setPenColor(255, 0, 0);
+		StdDraw.filledRectangle(0, 0, 22, 3);
+		StdDraw.filledRectangle(0, 15, 22, 2);
+		StdDraw.setPenColor(0, 0, 127);
+		StdDraw.filledRectangle(0, 8, 22, 3);
 	}
 
 	public static void finland() {
-		
-		// TODO
+		StdDraw.clear();
+		StdDraw.setPenColor(0, 0, 127);
+		StdDraw.filledRectangle(0, 8, 22, 2);
+		StdDraw.filledRectangle(5, 0, 2, 22);
 	}
 
 	public static void main(String[] args) {
